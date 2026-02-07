@@ -4,7 +4,7 @@ project:
   title:        "tt"      # Project title
   author:       "Benedikt Keppner"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "Testing the toolflow"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -17,8 +17,8 @@ project:
 pinout:
   # Inputs
   ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
+  ui[1]: "AIN"
+  ui[2]: "BIN"
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
@@ -26,14 +26,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
+  uo[0]: "SUM"
+  uo[1]: "COUT"
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
-  uo[7]: ""
+  uo[7]: "CLKOUT"
 
   # Bidirectional pins
   uio[0]: ""
