@@ -9,11 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The project contains a 6 stage clock divider and a half adder. Clkout is on pin 7. 
 
 ## How to test
 
-Explain how to use your project
+Test if the inputs on pin1 and pin 2 are added to SUM (pin0) and carry out (pin1).
 
 ## External hardware
 
